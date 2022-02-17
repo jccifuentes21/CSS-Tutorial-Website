@@ -26,8 +26,8 @@ a{
 
 :root{
 
-    --header-height: 40px;
-    --sidebar-width: 150px;
+    --header-height:75px;
+    --sidebar-width: 200px;
     --list-item-height: 3rem;
 }
 
@@ -60,7 +60,6 @@ a{
     height: calc(100vh - var(--header-height));
     overflow-y: auto;
     overflow-x: hidden;
-    border: 1px solid black;
     position: sticky;
     left: 0;
     top: var(--header-height);
@@ -162,4 +161,28 @@ a{
 }
 .bc_margin{
     border: solid black;
+<<<<<<< HEAD
 }
+=======
+}
+
+::-webkit-scrollbar{
+	width: 10px;
+}
+
+::-webkit-scrollbar-track-piece{
+	background-color: #FFF;
+}
+
+::-webkit-scrollbar-thumb{
+	background-color: #CBCBCB;
+	outline: 2px solid #FFF;
+	outline-offset: -2px;
+	border: .1px solid #B7B7B7;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+	background-color: #909090;
+}
+>>>>>>> b681493df55f24d895d0379fc7f075b2de837c38

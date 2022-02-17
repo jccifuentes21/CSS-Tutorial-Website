@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     <title>CSS Tutorial Website</title>
 </head>
 <body>
@@ -30,10 +33,17 @@
              </ul>
         </aside>
         <main class="content">
+            <div class="definition">
+                <h4>Defines the order of a flexbox item.</h4>
+            </div>
             <ul class="content-item">
                 <li class="content-list-item">
                     <div class="content-text">
-                        <p class="orange-highlight">order: 0;</p>
+                        <section class="subtitle">
+                            <p class="subtitle-color">order: 0;</p>
+                            <span class="default">default</span>
+                        </section>
+                         
                         The order of the flexbox items is the one defined in the HTML code.
             
                     </div>
@@ -43,7 +53,7 @@
                 </li>
                 <li class="content-list-item">
                     <div class="content-text">
-                        <p class="orange-highlight">order: 1;</p>
+                        <p class="subtitle-color">order: 1;</p>
                         The order is relative to the flexbox item's siblings. The final order is defined when all individual flexbox item order values are taken into account.
             
                     </div>
@@ -53,7 +63,7 @@
                 </li>
                 <li class="content-list-item">
                     <div class="content-text">
-                        <p class="orange-highlight">order: -1;</p>
+                        <p class="subtitle-color">order: -1;</p>
                         You can use negative values.
             
                     </div>
@@ -63,7 +73,7 @@
                 </li>
                 <li class="content-list-item">
                     <div class="content-text">
-                        <p class="orange-highlight">order: 9;</p>
+                        <p class="subtitle-color">order: 9;</p>
                         You can set a different value for each flexbox item.
             
                     </div>
