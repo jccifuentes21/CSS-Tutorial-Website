@@ -130,6 +130,9 @@ a{
     text-align: center;
     font-size: 16px;
     font-weight: 700;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 .lime-highlight {
@@ -138,6 +141,9 @@ a{
     text-align: center;
     font-size: 16px;
     font-weight: 700; 
+    width: fit-content;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 .aqua-highlight {
@@ -146,6 +152,9 @@ a{
     text-align: center;
     font-size: 16px;
     font-weight: 700; 
+    width: fit-content;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 .orange-highlight {
@@ -154,4 +163,7 @@ a{
     text-align: center;
     font-size: 16px;
     font-weight: 700; 
+    width: fit-content;
+    border-radius: 5px;
+    padding: 10px;
 }
