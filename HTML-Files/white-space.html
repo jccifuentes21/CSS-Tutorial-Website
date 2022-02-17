@@ -33,38 +33,53 @@
             <ul class="content-item">
                 <li class="content-list-item">
                     <div class="content-text">
-                        This is some context text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptate culpa corporis. Beatae eum libero laudantium culpa mollitia error est ex suscipit nostrum illo! Possimus, velit aut molestiae recusandae consequuntur fuga impedit quos 
-            
+                        white-space: normal; Sequences of spaces are combined into one.
+Line breaks are ignored.
+The text content is wrapped.
                     </div>
                     <div class="content-img">
-                        <img src="../test-image.jpeg" alt="">
+                        <img src="../Kento-assets//white-space-normal.png" alt="">
                     </div>
                 </li>
                 <li class="content-list-item">
                     <div class="content-text">
-                        This is some context text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptate culpa corporis. Beatae eum libero laudantium culpa mollitia error est ex suscipit nostrum illo! Possimus, velit aut molestiae recusandae consequuntur fuga impedit quos 
-            
+                        white-space: nowrap; Sequences of spaces are combined into one.
+Line breaks are ignored.
+The text content is not wrapped and remains on a single line.
                     </div>
                     <div class="content-img">
-                        <img src="../test-image.jpeg" alt="">
+                        <img src="../Kento-assets/white-space-nowrap.png" alt="">
                     </div>
                 </li>
                 <li class="content-list-item">
                     <div class="content-text">
-                        This is some context text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptate culpa corporis. Beatae eum libero laudantium culpa mollitia error est ex suscipit nostrum illo! Possimus, velit aut molestiae recusandae consequuntur fuga impedit quos 
-            
+                        white-space: pre; The white space is exactly preserved.
+                            ・Sequences of spaces are preserved
+                            ・Lines break only on new lines and <br>
                     </div>
                     <div class="content-img">
-                        <img src="../test-image.jpeg" alt="">
+                        <img src="../Kento-assets/white-space-pre.png" alt="">
                     </div>
                 </li>
                 <li class="content-list-item">
                     <div class="content-text">
-                        This is some context text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptate culpa corporis. Beatae eum libero laudantium culpa mollitia error est ex suscipit nostrum illo! Possimus, velit aut molestiae recusandae consequuntur fuga impedit quos 
-            
+                        white-space: pre-wrap; The white space is mostly preserved.
+                            ・Sequences of spaces are preserved
+                            ・Lines break on new lines, <br>, but also when reaching the end of the element
                     </div>
                     <div class="content-img">
-                        <img src="../test-image.jpeg" alt="">
+                        <img src="../Kento-assets//white-space-pre-wrap.png" alt="">
+                    </div>
+                </li>
+                <li class="content-list-item">
+                    <div class="content-text">
+                        white-space: pre-line; Only new lines are preserved.
+                            ・Sequences of spaces are combined into one
+                            ・Lines break on new lines, <br>, but also when reaching the end of the element
+
+                    </div>
+                    <div class="content-img">
+                        <img src="../Kento-assets//white-space-pre-line.png" alt="">
                     </div>
                 </li>
             </ul>
