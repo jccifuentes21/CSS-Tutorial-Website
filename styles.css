@@ -7,7 +7,7 @@ body{
 }
 
 :root{
-    
+
     --header-height: 40px;
     --sidebar-width: 150px;
     --list-item-height: 3rem;
@@ -108,4 +108,8 @@ body{
 
 .content-img img{
     max-width: 100%;
+}
+.subtitle-bkclr{
+    background-color: #ffdd57;
+    box-sizing: border-box;
 }
