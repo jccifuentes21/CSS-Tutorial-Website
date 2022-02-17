@@ -4,6 +4,7 @@ body{
 
 *{
     box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
 }
 
 
@@ -91,6 +92,10 @@ a{
     margin: 1rem;
     left: var(--sidebar-width);
     width: 100%;
+}
+
+.definition{
+    padding-bottom: 1.5rem;
 }
 
 .content-item{
