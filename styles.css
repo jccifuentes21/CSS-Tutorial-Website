@@ -107,3 +107,35 @@ body{
 .content-img img{
     max-width: 100%;
 }
+
+.yellow-highlight {
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.lime-highlight {
+    background-color: lime;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700; 
+}
+
+.aqua-highlight {
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700; 
+}
+
+.orange-highlight {
+    background-color: orange;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700; 
+}
