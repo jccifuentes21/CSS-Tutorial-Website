@@ -21,6 +21,7 @@ a{
 }
 
 :root{
+
     --header-height: 40px;
     --sidebar-width: 150px;
     --list-item-height: 3rem;
@@ -139,4 +140,18 @@ a{
 
 .content-img img{
     max-width: 100%;
+}
+.subtitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.subtitle-bkclr{
+    background-color: #ffdd57;
+    width: fit-content;
+    border-radius: 3px;
+    padding: 3px;
+}
+.bc_margin{
+    border: solid black;
 }
