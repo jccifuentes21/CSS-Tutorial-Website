@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     <title>CSS Content Tutorial</title>
 </head>
 <body>
@@ -30,12 +33,19 @@
              </ul>
         </aside>
         <main class="content">
+            <div class="definition">
+                <h4>Defines how flexbox/grid items are aligned according to the main axis, within a flexbox/grid container.</h4>
+            </div>
             <ul class="content-item">
                 <li class="content-list-item">
                     <div class="content-text">
-                        <p class="aqua-highlight">justify-content: flex-start;</p>
+                        <section class="subtitle">
+                            <p class="subtitle-color">justify-content: flex-start;</p>
+                            <span class="default">default</span>
+                        </section>
+                         
                         The flexbox/grid items are pushed towards the start of the container's main axis.
-                    
+            
                     </div>
                     <div class="content-img">
                         <img src="../test-image.jpeg" alt="">
@@ -43,7 +53,7 @@
                 </li>
                 <li class="content-list-item">
                     <div class="content-text">
-                        <p class="aqua-highlight">justify-content: flex-end;</p>
+                        <p class="subtitle-color">justify-content: flex-end;</p>
                         The flexbox/grid items are pushed towards the end of the container's main axis.
 
                     </div>
@@ -53,7 +63,7 @@
                 </li>
                 <li class="content-list-item">
                     <div class="content-text">
-                        <p class="aqua-highlight">justify-content: center;</p>
+                        <p class="subtitle-color">justify-content: center;</p>
                        The flexbox/grid items are centered along the container's main axis.
 
                     </div>
@@ -63,7 +73,7 @@
                 </li>
                 <li class="content-list-item">
                     <div class="content-text">
-                        <p class="aqua-highlight">justify-content: space-between;</p>
+                        <p class="subtitle-color">justify-content: space-between;</p>
                        The remaining space is distributed between the flexbox/grid items.
 
                     </div>
@@ -73,7 +83,7 @@
                 </li>
                 <li class="content-list-item">
                     <div class="content-text">
-                        <p class="aqua-highlight">justify-content: space-around;</p>
+                        <p class="subtitle-color">justify-content: space-around;</p>
                        The remaining space is distributed around the flexbox/grid items: this adds space before the first item and after the last one.
 
                     </div>
