@@ -26,8 +26,8 @@ a{
 
 :root{
 
-    --header-height: 40px;
-    --sidebar-width: 150px;
+    --header-height:75px;
+    --sidebar-width: 200px;
     --list-item-height: 3rem;
 }
 
@@ -60,7 +60,6 @@ a{
     height: calc(100vh - var(--header-height));
     overflow-y: auto;
     overflow-x: hidden;
-    border: 1px solid black;
     position: sticky;
     left: 0;
     top: var(--header-height);
