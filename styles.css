@@ -114,6 +114,18 @@ a{
     width: 50vw;
 }
 
+.content-text h3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-text .default{
+    padding: 0.1em 0.5em 0.15em;
+    display: inline-block;
+    box-shadow: inset 0 0 0 1px #ff4538;
+    color: red;
+    border-radius: 5px;
+}
 
 .content-img{
     width: 50%;
