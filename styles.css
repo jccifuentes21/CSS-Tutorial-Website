@@ -4,7 +4,7 @@ body{
 
 *{
     box-sizing: border-box;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Ubuntu', sans-serif;  
 }
 
 
@@ -17,6 +17,8 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+
     
 }
 
@@ -36,6 +38,7 @@ a{
     align-items: center;
     justify-content: center;
     background-color: #777;
+    font-family: 'Bebas Neue', cursive;
     box-shadow: 0 1px 10px 0 rgba(0, 0, 0, .4);
     font-size: 35px;
     position: sticky;
