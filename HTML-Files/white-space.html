@@ -1,76 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles.css" />
     <title>CSS Tutorial Website</title>
-</head>
-<body>
-    <header class="header">CSS Tutorials</header>
+  </head>
+  <body>
+    <header class="header">#White-space</header>
     <div class="container">
-        <aside class="sidebar">
-             <ul class="sidebar-items">
-                 <li class="sidebar-list-item"><a href="animation-timing-function.html">Animation-timing-function</a></li>
-                 <li class="sidebar-list-item"><a href="background-color.html">Background-color</a></li>
-                 <li class="sidebar-list-item"><a href="box-sizing.html">Box-sizing</a></li>
-                 <li class="sidebar-list-item"><a href="cursor.html">Cursor</a></li>
-                 <li class="sidebar-list-item"><a href="flex-direction.html">Flex-direction</a></li>
-                 <li class="sidebar-list-item"><a href="flex-wrap.html">Flex-wrap</a></li>
-                 <li class="sidebar-list-item"><a href="justify-content.html">Justify-content</a></li>
-                 <li class="sidebar-list-item"><a href="order.html">Order</li>
-                 <li class="sidebar-list-item"><a href="overflow.html">Overflow</a></li>
-                 <li class="sidebar-list-item"><a href="overflow-wrap.html">Overflow-wrap</a></li>
-                 <li class="sidebar-list-item"><a href="position.html">Position</a></li>
-                 <li class="sidebar-list-item"><a href="transform.html">Transform</a></li>
-                 <li class="sidebar-list-item active"><a href="white-space.html">White-space</a></li>
-                 <li class="sidebar-list-item"><a href="word-break.html">Word-break</a></li>
-                 <li class="sidebar-list-item"><a href="z-index.html">Z-index</a></li>
-             </ul>
-        </aside>
-        <main class="content">
-            <ul class="content-item">
-                <li class="content-list-item">
-                    <div class="content-text">
-                        This is some context text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptate culpa corporis. Beatae eum libero laudantium culpa mollitia error est ex suscipit nostrum illo! Possimus, velit aut molestiae recusandae consequuntur fuga impedit quos 
-            
-                    </div>
-                    <div class="content-img">
-                        <img src="../test-image.jpeg" alt="">
-                    </div>
-                </li>
-                <li class="content-list-item">
-                    <div class="content-text">
-                        This is some context text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptate culpa corporis. Beatae eum libero laudantium culpa mollitia error est ex suscipit nostrum illo! Possimus, velit aut molestiae recusandae consequuntur fuga impedit quos 
-            
-                    </div>
-                    <div class="content-img">
-                        <img src="../test-image.jpeg" alt="">
-                    </div>
-                </li>
-                <li class="content-list-item">
-                    <div class="content-text">
-                        This is some context text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptate culpa corporis. Beatae eum libero laudantium culpa mollitia error est ex suscipit nostrum illo! Possimus, velit aut molestiae recusandae consequuntur fuga impedit quos 
-            
-                    </div>
-                    <div class="content-img">
-                        <img src="../test-image.jpeg" alt="">
-                    </div>
-                </li>
-                <li class="content-list-item">
-                    <div class="content-text">
-                        This is some context text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptate culpa corporis. Beatae eum libero laudantium culpa mollitia error est ex suscipit nostrum illo! Possimus, velit aut molestiae recusandae consequuntur fuga impedit quos 
-            
-                    </div>
-                    <div class="content-img">
-                        <img src="../test-image.jpeg" alt="">
-                    </div>
-                </li>
-            </ul>
-        </main>   
+      <aside class="sidebar">
+        <ul class="sidebar-items">
+          <li class="sidebar-list-item">
+            <a href="animation-timing-function.html"
+              >Animation-timing-function</a
+            >
+          </li>
+          <li class="sidebar-list-item">
+            <a href="background-color.html">Background-color</a>
+          </li>
+          <li class="sidebar-list-item">
+            <a class="item-name" href="box-shadow.html">Box-shadow</a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="box-sizing.html">Box-sizing</a>
+          </li>
+          <li class="sidebar-list-item"><a href="cursor.html">Cursor</a></li>
+          <li class="sidebar-list-item">
+            <a href="flex-direction.html">Flex-direction</a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="flex-wrap.html">Flex-wrap</a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="justify-content.html">Justify-content</a>
+          </li>
+          <li class="sidebar-list-item"><a href="order.html">Order</a></li>
+          <li class="sidebar-list-item">
+            <a href="overflow.html">Overflow</a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="overflow-wrap.html">Overflow-wrap</a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="position.html">Position</a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="transform.html">Transform</a>
+          </li>
+          <li class="sidebar-list-item active">
+            <a href="white-space.html">White-space</a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="word-break.html">Word-break</a>
+          </li>
+          <li class="sidebar-list-item"><a href="z-index.html">Z-index</a></li>
+        </ul>
+      </aside>
+      <main class="content">
+        <h2>
+          white-space
+          <h4>Defines how the element's white space is handled.</h4>
+        </h2>
+        <ul class="content-item">
+          <li class="content-list-item">
+            <div class="content-text">
+              <h3 class="subtitle">
+                <p class="subtitle-color">white-space: normal;</p>
+                <span class="default">default</span>
+              </h3>
+              <p>
+                Sequences of spaces are combined into one.Line breaks are
+                ignored.The text content is wrapped.
+              </p>
+            </div>
+            <div class="content-img">
+              <img src="../Images/white-space-normal.png" alt="" />
+            </div>
+          </li>
+          <li class="content-list-item">
+            <div class="content-text">
+              <h3 class="subtitle">
+                <p class="subtitle-color">white-space: no-wrap;</p>
+              </h3>
+              <p>
+                Sequences of spaces are combined into one.Line breaks are
+                ignored. The text content is not wrapped and remains on a single
+                line.
+              </p>
+            </div>
+            <div class="content-img">
+              <img src="../Images/white-space-nowrap.png" alt="" />
+            </div>
+          </li>
+          <li class="content-list-item">
+            <div class="content-text">
+              <h3 class="subtitle">
+                <p class="subtitle-color">white-space: pre;</p>
+              </h3>
+              <p>
+                The white space is exactly preserved. ・Sequences of spaces are
+                preserved ・Lines break only on new lines and
+              </p>
+            </div>
+            <div class="content-img">
+              <img src="../Images/white-space-pre.png" alt="" />
+            </div>
+          </li>
+          <li class="content-list-item">
+            <div class="content-text">
+              <h3 class="subtitle">
+                <p class="subtitle-color">white-space: pre-wrap;</p>
+              </h3>
+              <p>
+                The white space is mostly preserved. ・Sequences of spaces are
+                preserved ・Lines break on new lines, but also when reaching the
+                end of the element
+              </p>
+            </div>
+            <div class="content-img">
+              <img src="../Images/white-space-pre-wrap.png" alt="" />
+            </div>
+          </li>
+          <li class="content-list-item">
+            <div class="content-text">
+              <h3 class="subtitle">
+                <p class="subtitle-color">white-space: pre-line;</p>
+              </h3>
+              <p>
+                Only new lines are preserved. ・Sequences of spaces are combined
+                into one ・Lines break on new lines, but also when reaching the
+                end of the element
+              </p>
+            </div>
+            <div class="content-img">
+              <img src="../Images/white-space-pre-line.png" alt="" />
+            </div>
+          </li>
+        </ul>
+      </main>
     </div>
- 
-    
-</body>
+  </body>
 </html>

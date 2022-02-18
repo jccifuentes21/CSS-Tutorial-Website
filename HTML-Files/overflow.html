@@ -1,76 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles.css" />
     <title>CSS Tutorial Website</title>
-</head>
-<body>
-    <header class="header">CSS Tutorials</header>
+  </head>
+  <body>
+    <header class="header">#Overflow</header>
     <div class="container">
-        <aside class="sidebar">
-             <ul class="sidebar-items">
-                 <li class="sidebar-list-item"><a href="animation-timing-function.html">Animation-timing-function</a></li>
-                 <li class="sidebar-list-item"><a href="background-color.html">Background-color</a></li>
-                 <li class="sidebar-list-item"><a href="box-sizing.html">Box-sizing</a></li>
-                 <li class="sidebar-list-item"><a href="cursor.html">Cursor</a></li>
-                 <li class="sidebar-list-item"><a href="flex-direction.html">Flex-direction</a></li>
-                 <li class="sidebar-list-item"><a href="flex-wrap.html">Flex-wrap</a></li>
-                 <li class="sidebar-list-item"><a href="justify-content.html">Justify-content</a></li>
-                 <li class="sidebar-list-item"><a href="order.html">Order</li>
-                 <li class="sidebar-list-item active"><a href="overflow.html">Overflow</a></li>
-                 <li class="sidebar-list-item"><a href="overflow-wrap.html">Overflow-wrap</a></li>
-                 <li class="sidebar-list-item"><a href="position.html">Position</a></li>
-                 <li class="sidebar-list-item"><a href="transform.html">Transform</a></li>
-                 <li class="sidebar-list-item"><a href="white-space.html">White-space</a></li>
-                 <li class="sidebar-list-item"><a href="word-break.html">Word-break</a></li>
-                 <li class="sidebar-list-item"><a href="z-index.html">Z-index</a></li>
-             </ul>
-        </aside>
-        <main class="content">
-            <ul class="content-item">
-                <li class="content-list-item">
-                    <div class="content-text">
-                        This is some context text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptate culpa corporis. Beatae eum libero laudantium culpa mollitia error est ex suscipit nostrum illo! Possimus, velit aut molestiae recusandae consequuntur fuga impedit quos 
-            
-                    </div>
-                    <div class="content-img">
-                        <img src="../test-image.jpeg" alt="">
-                    </div>
-                </li>
-                <li class="content-list-item">
-                    <div class="content-text">
-                        This is some context text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptate culpa corporis. Beatae eum libero laudantium culpa mollitia error est ex suscipit nostrum illo! Possimus, velit aut molestiae recusandae consequuntur fuga impedit quos 
-            
-                    </div>
-                    <div class="content-img">
-                        <img src="../test-image.jpeg" alt="">
-                    </div>
-                </li>
-                <li class="content-list-item">
-                    <div class="content-text">
-                        This is some context text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptate culpa corporis. Beatae eum libero laudantium culpa mollitia error est ex suscipit nostrum illo! Possimus, velit aut molestiae recusandae consequuntur fuga impedit quos 
-            
-                    </div>
-                    <div class="content-img">
-                        <img src="../test-image.jpeg" alt="">
-                    </div>
-                </li>
-                <li class="content-list-item">
-                    <div class="content-text">
-                        This is some context text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptate culpa corporis. Beatae eum libero laudantium culpa mollitia error est ex suscipit nostrum illo! Possimus, velit aut molestiae recusandae consequuntur fuga impedit quos 
-            
-                    </div>
-                    <div class="content-img">
-                        <img src="../test-image.jpeg" alt="">
-                    </div>
-                </li>
-            </ul>
-        </main>   
+      <aside class="sidebar">
+        <ul class="sidebar-items">
+          <li class="sidebar-list-item">
+            <a href="animation-timing-function.html"
+              >Animation-timing-function</a
+            >
+          </li>
+          <li class="sidebar-list-item">
+            <a href="background-color.html">Background-color</a>
+          </li>
+          <li class="sidebar-list-item">
+            <a class="item-name" href="box-shadow.html">Box-shadow</a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="box-sizing.html">Box-sizing</a>
+          </li>
+          <li class="sidebar-list-item"><a href="cursor.html">Cursor</a></li>
+          <li class="sidebar-list-item">
+            <a href="flex-direction.html">Flex-direction</a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="flex-wrap.html">Flex-wrap</a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="justify-content.html">Justify-content</a>
+          </li>
+          <li class="sidebar-list-item"><a href="order.html">Order</a></li>
+          <li class="sidebar-list-item active">
+            <a href="overflow.html">Overflow</a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="overflow-wrap.html">Overflow-wrap</a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="position.html">Position</a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="transform.html">Transform</a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="white-space.html">White-space</a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="word-break.html">Word-break</a>
+          </li>
+          <li class="sidebar-list-item"><a href="z-index.html">Z-index</a></li>
+        </ul>
+      </aside>
+      <main class="content">
+        <h2>
+          overflow
+          <h4>
+            Defines how overflowing content on both horizontal and vertical axis
+            is displayed.
+          </h4>
+        </h2>
+        <ul class="content-item">
+          <li class="content-list-item">
+            <div class="content-text">
+              <h3 class="subtitle">
+                <p class="subtitle-color">overflow: visible;</p>
+                <span class="default">default</span>
+              </h3>
+              <p>
+                The overflowing content is visible, while the element itself
+                stays at the specified height.
+              </p>
+            </div>
+            <div class="content-img">
+              <img src="../Images/overflow-visible2.png" alt="" />
+            </div>
+          </li>
+          <li class="content-list-item">
+            <div class="content-text">
+              <h3 class="subtitle">
+                <p class="subtitle-color">overflow: hidden;</p>
+              </h3>
+              <p>The overflowing content is hidden and can not be accessed.</p>
+            </div>
+            <div class="content-img">
+              <img src="../Images/overflow-hidden-scroll-auto.png" alt="" />
+            </div>
+          </li>
+          <li class="content-list-item">
+            <div class="content-text">
+              <h3 class="subtitle">
+                <p class="subtitle-color">overflow: scroll;</p>
+              </h3>
+              <p>
+                The overflowing content is accessible thanks to a vertical
+                scrollbar.
+              </p>
+            </div>
+            <div class="content-img">
+              <img src="../Images/overflow-hidden-scroll-auto.png" alt="" />
+            </div>
+          </li>
+          <li class="content-list-item">
+            <div class="content-text">
+              <h3 class="subtitle">
+                <p class="subtitle-color">overflow: auto;</p>
+              </h3>
+              <p>
+                The browser decides whether to display a vertical scrollbar or
+                not.
+              </p>
+            </div>
+            <div class="content-img">
+              <img src="../Images/overflow-hidden-scroll-auto.png" alt="" />
+            </div>
+          </li>
+        </ul>
+      </main>
     </div>
- 
-    
-</body>
+  </body>
 </html>
