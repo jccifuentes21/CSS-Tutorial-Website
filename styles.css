@@ -161,6 +161,7 @@ a{
 }
 .bc_margin{
     border: solid black;
+    border-radius: 10px;
 }
 
 ::-webkit-scrollbar {
