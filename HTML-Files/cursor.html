@@ -5,68 +5,181 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles.css">
-    <title>CSS Tutorial Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+    <title>#Cursor</title>
 </head>
 <body>
-    <header class="header">CSS Tutorials</header>
+    <header class="header">#Cursor</header>
     <div class="container">
         <aside class="sidebar">
              <ul class="sidebar-items">
-                 <li class="sidebar-list-item"><a href="animation-timing-function.html">Animation-timing-function</a></li>
-                 <li class="sidebar-list-item"><a href="background-color.html">Background-color</a></li>
-                 <li class="sidebar-list-item"><a href="box-sizing.html">Box-sizing</a></li>
-                 <li class="sidebar-list-item"><a href="cursor.html">Cursor</a></li>
-                 <li class="sidebar-list-item"><a href="flex-direction.html">Flex-direction</a></li>
-                 <li class="sidebar-list-item"><a href="flex-wrap.html">Flex-wrap</a></li>
-                 <li class="sidebar-list-item"><a href="justify-content.html">Justify-content</a></li>
-                 <li class="sidebar-list-item"><a href="order.html">Order</li>
-                 <li class="sidebar-list-item"><a href="overflow.html">Overflow</a></li>
-                 <li class="sidebar-list-item"><a href="overflow-wrap.html">Overflow-wrap</a></li>
-                 <li class="sidebar-list-item"><a href="position.html">Position</a></li>
-                 <li class="sidebar-list-item"><a href="transform.html">Transform</a></li>
-                 <li class="sidebar-list-item"><a href="white-space.html">White-space</a></li>
-                 <li class="sidebar-list-item"><a href="word-break.html">Word-break</a></li>
-                 <li class="sidebar-list-item"><a href="z-index.html">Z-index</a></li>
+                 <li class="sidebar-list-item"><a class="item-name" href="animation-timing-function.html">Animation-timing-function</a></li>
+                 <li class="sidebar-list-item"><a class="item-name" href="background-color.html">Background-color</a></li>
+                 <li class="sidebar-list-item "><a class="item-name" href="box-shadow.html">Box-shadow</a></li>
+                 <li class="sidebar-list-item"><a class="item-name" href="box-sizing.html">Box-sizing</a></li>
+                 <li class="sidebar-list-item active"><a class="item-name" href="cursor.html">Cursor</a></li>
+                 <li class="sidebar-list-item"><a class="item-name" href="flex-direction.html">Flex-direction</a></li>
+                 <li class="sidebar-list-item"><a class="item-name" href="flex-wrap.html">Flex-wrap</a></li>
+                 <li class="sidebar-list-item"><a class="item-name" href="justify-content.html">Justify-content</a></li>
+                 <li class="sidebar-list-item"><a class="item-name" href="order.html">Order</a></li>
+                 <li class="sidebar-list-item"><a class="item-name" href="overflow.html">Overflow</a></li>
+                 <li class="sidebar-list-item"><a class="item-name" href="overflow-wrap.html">Overflow-wrap</a></li>
+                 <li class="sidebar-list-item"><a class="item-name" href="position.html">Position</a></li>
+                 <li class="sidebar-list-item"><a class="item-name" href="transform.html">Transform</a></li>
+                 <li class="sidebar-list-item"><a class="item-name" href="white-space.html">White-space</a></li>
+                 <li class="sidebar-list-item"><a class="item-name" href="word-break.html">Word-break</a></li>
+                 <li class="sidebar-list-item"><a class="item-name" href="z-index.html">Z-index</a></li>
              </ul>
         </aside>
         <main class="content">
+            <div class="definition">
+                <h2>#Cursor</h2>
+                Sets the mouse cursor when hovering the element.
+            </div>
+            
             <ul class="content-item">
                 <li class="content-list-item">
                     <div class="content-text">
-                        This is some context text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptate culpa corporis. Beatae eum libero laudantium culpa mollitia error est ex suscipit nostrum illo! Possimus, velit aut molestiae recusandae consequuntur fuga impedit quos 
-            
+                        <h3 class="subtitle"><p class="subtitle-color"> cursor: default;</p>
+                        </h3>
+                        Sets the cursor to the element's default value. For a link, it would be a pointer. For text it would be a selection cursor.
                     </div>
-                    <div class="content-img">
-                        <img src="../test-image.jpeg" alt="">
+                    <div class="example-output">
+                            <p style="cursor: default;">Hover over me!</p>
+                    </div>
+                </li>
+
+                </li>
+                <li class="content-list-item">
+                    <div class="content-text">
+                        <h3 class="subtitle"><p class="subtitle-color">cursor: auto;</p> </h3>
+                        auto
+                    </div>
+                    <div class="example-output">
+                        <p style="cursor: auto;">Hover over me!</p>
                     </div>
                 </li>
                 <li class="content-list-item">
                     <div class="content-text">
-                        This is some context text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptate culpa corporis. Beatae eum libero laudantium culpa mollitia error est ex suscipit nostrum illo! Possimus, velit aut molestiae recusandae consequuntur fuga impedit quos 
-            
+                        <h3 class="subtitle"><p class="subtitle-color">cursor: pointer;</p> </h3>
+                        pointer                 
                     </div>
-                    <div class="content-img">
-                        <img src="../test-image.jpeg" alt="">
-                    </div>
-                </li>
-                <li class="content-list-item">
-                    <div class="content-text">
-                        This is some context text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptate culpa corporis. Beatae eum libero laudantium culpa mollitia error est ex suscipit nostrum illo! Possimus, velit aut molestiae recusandae consequuntur fuga impedit quos 
-            
-                    </div>
-                    <div class="content-img">
-                        <img src="../test-image.jpeg" alt="">
+                    <div class="example-output">
+                        <p style="cursor: pointer;">Hover over me!</p>
                     </div>
                 </li>
                 <li class="content-list-item">
                     <div class="content-text">
-                        This is some context text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptate culpa corporis. Beatae eum libero laudantium culpa mollitia error est ex suscipit nostrum illo! Possimus, velit aut molestiae recusandae consequuntur fuga impedit quos 
-            
+                        <h3 class="subtitle"><p class="subtitle-color">cursor: move;</p> </h3>
+                        move
                     </div>
-                    <div class="content-img">
-                        <img src="../test-image.jpeg" alt="">
+                    <div class="example-output">
+                        <p style="cursor: move;">Hover over me!</p>
                     </div>
                 </li>
+                <li class="content-list-item">
+                    <div class="content-text">
+                        <h3 class="subtitle"><p class="subtitle-color">cursor: crosshair;</p> </h3>
+                        crosshair                   
+                    </div>
+                    <div class="example-output">
+                        <p style="cursor: crosshair;">Hover over me!</p>
+                    </div>
+                </li>
+                <li class="content-list-item">
+                    <div class="content-text">
+                        <h3 class="subtitle"><p class="subtitle-color">cursor: text;</p> </h3>
+                        text                   
+                    </div>
+                    <div class="example-output">
+                        <p style="cursor: text;">Hover over me!</p>
+                    </div>
+                </li>
+                <li class="content-list-item">
+                    <div class="content-text">
+                        <h3 class="subtitle"><p class="subtitle-color">cursor: wait;</p> </h3>
+                        wait                   
+                    </div>
+                    <div class="example-output">
+                        <p style="cursor: wait;">Hover over me!</p>
+                    </div>
+                </li>
+
+                <li class="content-list-item">
+                    <div class="content-text">
+                        <h3 class="subtitle"><p class="subtitle-color">cursor: help-resize;</p> </h3>
+                        help-resize                   
+                    </div>
+                    <div class="example-output">
+                        <p style="cursor: help-resize;">Hover over me!</p>
+                    </div>
+                </li>
+                <li class="content-list-item">
+                    <div class="content-text">
+                        <h3 class="subtitle"><p class="subtitle-color">cursor: ne-resize;</p> </h3>
+                        ne-resize                   
+                    </div>
+                    <div class="example-output">
+                        <p style="cursor: ne-resize;">Hover over me!</p>
+                    </div>
+                </li>
+                <li class="content-list-item">
+                    <div class="content-text">
+                        <h3 class="subtitle"><p class="subtitle-color">cursor: nw-resize;</p> </h3>
+                            nw-resize                   
+                    </div>
+                    <div class="example-output">
+                        <p style="cursor: nw-resize;">Hover over me!</p>
+                    </div>
+                </li>
+                <li class="content-list-item">
+                    <div class="content-text">
+                        <h3 class="subtitle"><p class="subtitle-color">cursor: n-resize;</p> </h3>
+                        n-resize                   
+                    </div>
+                    <div class="example-output">
+                        <p style="cursor: n-resize;">Hover over me!</p>
+                    </div>
+                </li>
+                <li class="content-list-item">
+                    <div class="content-text">
+                        <h3 class="subtitle"><p class="subtitle-color">cursor: se-resize;</p> </h3>
+                        se-resize                   
+                    </div>
+                    <div class="example-output">
+                        <p style="cursor: se-resize;">Hover over me!</p>
+                    </div>
+                </li>
+                <li class="content-list-item">
+                    <div class="content-text">
+                        <h3 class="subtitle"><p class="subtitle-color">cursor: sw-resize;</p> </h3>
+                        sw-resize                   
+                    </div>
+                    <div class="example-output">
+                        <p style="cursor: sw-resize;">Hover over me!</p>
+                    </div>
+                </li>
+                <li class="content-list-item">
+                    <div class="content-text">
+                        <h3 class="subtitle"><p class="subtitle-color">cursor: s-resize;</p> </h3>
+                        s-resize                   
+                    </div>
+                    <div class="example-output">
+                        <p style="cursor: s-resize;">Hover over me!</p>
+                    </div>
+                </li>
+                <li class="content-list-item">
+                    <div class="content-text">
+                        <h3 class="subtitle"><p class="subtitle-color">cursor: w-resize;</p> </h3>
+                        w-resize                   
+                    </div>
+                    <div class="example-output">
+                        <p style="cursor: w-resize;">Hover over me!</p>
+                    </div>
+                </li>               
             </ul>
         </main>   
     </div>
