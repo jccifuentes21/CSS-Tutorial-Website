@@ -93,6 +93,10 @@ a{
     background: rgb(172, 171, 171);
 }
 
+.sidebar-list-item.active{
+    background: rgb(172, 171, 171);
+}
+
 .content{
     display: flex;
     flex-direction: column;
@@ -130,6 +134,7 @@ a{
 .content-text h3{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .content-text .default{
@@ -148,11 +153,7 @@ a{
 .content-img img{
     max-width: 100%;
 }
-.subtitle{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
 .subtitle-color{
     background-color: #ffdd57;
     width: fit-content;
@@ -161,6 +162,24 @@ a{
 }
 .bc_margin{
     border: solid black;
+}
+
+.example-output{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #30475E;
+    border: 1px solid #30475E;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 3px 5px 3px rgb(0 0 0 / 15%);
+    font-size: 1.5em;
+    padding: 0.5em 1.5em;
+}
+
+.example-output p{
+    margin: 1rem;
+    color: #F5F5F5;
 }
 
 ::-webkit-scrollbar {

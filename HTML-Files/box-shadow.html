@@ -18,7 +18,7 @@
              <ul class="sidebar-items">
                  <li class="sidebar-list-item"><a class="item-name" href="animation-timing-function.html">Animation-timing-function</a></li>
                  <li class="sidebar-list-item"><a class="item-name" href="background-color.html">Background-color</a></li>
-                 <li class="sidebar-list-item"><a class="item-name" href="box-shadow.html">Box-shadow</a></li>
+                 <li class="sidebar-list-item active"><a class="item-name" href="box-shadow.html">Box-shadow</a></li>
                  <li class="sidebar-list-item"><a class="item-name" href="box-sizing.html">Box-sizing</a></li>
                  <li class="sidebar-list-item"><a class="item-name" href="cursor.html">Cursor</a></li>
                  <li class="sidebar-list-item"><a class="item-name" href="flex-direction.html">Flex-direction</a></li>
@@ -49,71 +49,53 @@
                         Removes any box-shadow that was applied to the element.
                     </div>
                     <div class="content-img">
-                        <img src="../Images/ease.gif" alt="">
+                        <img src="../Images/box-shadow-none.jpg" alt="">
                     </div>
                 </li>
                 <li class="content-list-item">
                     <div class="content-text">
-                        <h3 class="subtitle"><p class="subtitle-color">animation-timing-function: ease-in;</p> </h3>
-                        The animation starts slowly, and accelerates gradually until the end.
+                        <h3 class="subtitle"><p class="subtitle-color">box-shadow: 2px 6px;</p> </h3>
+                        You need at least two values: 
+                        <ul>
+                            <br>
+                            <li>the first is the horizontal offset</li> 
+                            <li>the second is the vertical offset</li> 
+                            <br>
+                        </ul>
+                        The shadow color will be inherited from the text color.
                     </div>
                     <div class="content-img">
-                        <img src="../Images/ease-in.gif" alt="">
+                        <img src="../Images/box-shadow-2-values.jpg" alt="">
                     </div>
                 </li>
                 <li class="content-list-item">
                     <div class="content-text">
-                        <h3 class="subtitle"><p class="subtitle-color">animation-timing-function: ease-out;</p> </h3>
-                        The animation starts quickly, and decelerates gradually until the end.
+                        <h3 class="subtitle"><p class="subtitle-color">box-shadow: 2px 6px red;</p> </h3>
+                        You can define a color as the last value. <br> <br>
+                        As with color, you can use color names, hexadecimal, rgb, hsl...                   
                     </div>
                     <div class="content-img">
-                        <img src="../Images/ease-out.gif" alt="">
+                        <img src="../Images/box-shadow-3-values.jpg" alt="">
                     </div>
                 </li>
                 <li class="content-list-item">
                     <div class="content-text">
-                        <h3 class="subtitle"><p class="subtitle-color">animation-timing-function: ease-in-out;</p> </h3>
-                        Like ease, but more pronounced.
-
-                        The animation starts quickly, and decelerates gradually until the end.
+                        <h3 class="subtitle"><p class="subtitle-color">box-shadow: 2px 4px 10px red;</p> </h3>
+                        The optional third value defines the blur of the shadow. <br> <br>
+                        The color will be diffused across 10px in this example, from opaque to transparent.
                     </div>
                     <div class="content-img">
-                        <img src="../Images/ease-in-out.gif" alt="">
+                        <img src="../Images/box-shadow-4-values.jpg" alt="">
                     </div>
                 </li>
                 <li class="content-list-item">
                     <div class="content-text">
-                        <h3 class="subtitle"><p class="subtitle-color">animation-timing-function: linear;</p> </h3>
-                        The animation has a *constant speed.
+                        <h3 class="subtitle"><p class="subtitle-color">box-shadow: 2px 4px 10px 4px red;</p> </h3>
+                        The optional fourth value defines the spread of the shadow. <br> <br>
+                        The spread defines how much the shadow should grow: it enhances the shadow.                    
                     </div>
                     <div class="content-img">
-                        <img src="../Images/linear.gif" alt="">
-                    </div>
-                </li>
-                <li class="content-list-item">
-                    <div class="content-text">
-                        <h3 class="subtitle"><p class="subtitle-color">animation-timing-function: step-start;</p> </h3>
-                        The animation jumps instantly to the final state.
-                    </div>
-                    <div class="content-img">
-                        <img src="../Images/step-start.gif" alt="">
-                    </div>
-                </li>
-                <li class="content-list-item">
-                    <div class="content-text">
-                        <h3 class="subtitle"><p class="subtitle-color">animation-timing-function: step-end;</p> </h3>
-                        The animation stays at the initial state until the end, when it instantly jumps to the final state.
-                    </div>
-                    <div class="content-img">
-                        <img src="../Images/step-end.gif" alt="">
-                    </div>
-                </li>
-                <li class="content-list-item">
-                    <div class="content-text">
-                        <h3 class="subtitle"><p class="subtitle-color">animation-timing-function: steps(4,end);</p> </h3>
-                        By using steps() with an integer, you can define a specific number of steps before reaching the end. The state of the element will not vary gradually, but rather jump from state to state in separate instants.                    </div>
-                    <div class="content-img">
-                        <img src="../Images/steps.gif" alt="">
+                        <img src="../Images/box-shadow-5-values.jpg" alt="">
                     </div>
                 </li>
                 
