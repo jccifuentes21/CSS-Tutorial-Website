@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles.css">
     <title>CSS Tutorial Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">CSS Tutorials</header>
+    <header class="header"># Box-sizing</header>
     <div class="container">
         <aside class="sidebar">
              <ul class="sidebar-items">
@@ -19,7 +22,7 @@
                  <li class="sidebar-list-item"><a href="flex-direction.html">Flex-direction</a></li>
                  <li class="sidebar-list-item"><a href="flex-wrap.html">Flex-wrap</a></li>
                  <li class="sidebar-list-item"><a href="justify-content.html">Justify-content</a></li>
-                 <li class="sidebar-list-item"><a href="order.html">Order</li>
+                 <li class="sidebar-list-item"><a href="order.html">Order</a></li>
                  <li class="sidebar-list-item"><a href="overflow.html">Overflow</a></li>
                  <li class="sidebar-list-item"><a href="overflow-wrap.html">Overflow-wrap</a></li>
                  <li class="sidebar-list-item"><a href="position.html">Position</a></li>
@@ -30,41 +33,43 @@
              </ul>
         </aside>
         <main class="content">
+            <div class="definition">
+                <p>Defines how the width and height of the element are calculated: whether they include the padding and borders or not.</p>
+            </div>
             <ul class="content-item">
                 <li class="content-list-item">
                     <div class="content-text">
-                        This is some context text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptate culpa corporis. Beatae eum libero laudantium culpa mollitia error est ex suscipit nostrum illo! Possimus, velit aut molestiae recusandae consequuntur fuga impedit quos 
-            
+                        <h3 class="subtitle">
+                            <p class="subtitle-color"> Box-sizing: content-box ;</p>
+                            <span class="default">default</span>
+                        </h3>
+                            <p class="text-content">The width and height of the element only apply to the content of the element. <br> <br> For example, this element has</p>
+                            <ul>
+                                <li>Border-width: 12px</li>   
+                                <li>Padding: 30px</li>
+                                <li>Width: 200px</li>
+                            </ul>
+                            <p>The full width is 24px + 60px + 200px = 284px. <br> <br>  The content has the defined width. The box accomodates for those dimensions.</p>
                     </div>
                     <div class="content-img">
-                        <img src="../test-image.jpeg" alt="">
+                        <img class="bc_margin" src="../Images/bxsz_jpg/bx_contentbox.jpg" alt="">
                     </div>
                 </li>
                 <li class="content-list-item">
                     <div class="content-text">
-                        This is some context text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptate culpa corporis. Beatae eum libero laudantium culpa mollitia error est ex suscipit nostrum illo! Possimus, velit aut molestiae recusandae consequuntur fuga impedit quos 
-            
+                        <h3 class="subtitle">
+                            <p class="subtitle-color"> Box-sizing: border-box ; </p>
+                        </h3>
+                        <p class="text-content">The width and height of the element apply to all parts of the element: the content, the padding and the borders. <br>  <br> For example, this element has</p>
+                        <ul>
+                            <li>Border-width: 12px</li>   
+                            <li>Padding: 30px</li>
+                            <li>Width: 200px</li>
+                        </ul>
+                        <p>The full width is 200px, no matter what. <br> <br>  The box has the defined width. The content accomodates for those dimensions, and ends up being 200px - 60px - 24px = 116px.</p>
                     </div>
                     <div class="content-img">
-                        <img src="../test-image.jpeg" alt="">
-                    </div>
-                </li>
-                <li class="content-list-item">
-                    <div class="content-text">
-                        This is some context text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptate culpa corporis. Beatae eum libero laudantium culpa mollitia error est ex suscipit nostrum illo! Possimus, velit aut molestiae recusandae consequuntur fuga impedit quos 
-            
-                    </div>
-                    <div class="content-img">
-                        <img src="../test-image.jpeg" alt="">
-                    </div>
-                </li>
-                <li class="content-list-item">
-                    <div class="content-text">
-                        This is some context text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptate culpa corporis. Beatae eum libero laudantium culpa mollitia error est ex suscipit nostrum illo! Possimus, velit aut molestiae recusandae consequuntur fuga impedit quos 
-            
-                    </div>
-                    <div class="content-img">
-                        <img src="../test-image.jpeg" alt="">
+                        <img class="bc_margin" src="../Images/bxsz_jpg/bx_brdbox.jpg" alt="">
                     </div>
                 </li>
             </ul>
