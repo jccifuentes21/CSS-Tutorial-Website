@@ -161,9 +161,6 @@ a{
 }
 .bc_margin{
     border: solid black;
-<<<<<<< HEAD
-}
-=======
 }
 
 ::-webkit-scrollbar{
@@ -185,4 +182,3 @@ a{
 ::-webkit-scrollbar-thumb:hover{
 	background-color: #909090;
 }
->>>>>>> b681493df55f24d895d0379fc7f075b2de837c38
