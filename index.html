@@ -1,68 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>CSS Tutorial Website</title>
-  </head>
-  <body>
-    <header class="header">CSS Tutorials</header>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+    <title>#Animation-timing-function</title>
+</head>
+<body>
+    <header class="header"># Animation-timing-function</header>
     <div class="container">
         <aside class="sidebar">
              <ul class="sidebar-items">
-                 <li class="sidebar-list-item"><a class= "item-name" href="HTML-Files/animation-timing-function.html">Animation-timing-function</a></li>
-                 <li class="sidebar-list-item"><a class= "item-name" href="HTML-Files/background-color.html">Background-color</a></li>
-                 <li class="sidebar-list-item"><a class= "item-name" href="HTML-Files/box-sizing.html">Box-sizing</a></li>
-                 <li class="sidebar-list-item"><a class= "item-name" href="HTML-Files/cursor.html">Cursor</a></li>
-                 <li class="sidebar-list-item"><a class= "item-name" href="HTML-Files/flex-direction.html">Flex-direction</a></li>
-                 <li class="sidebar-list-item"><a class= "item-name" href="HTML-Files/flex-wrap.html">Flex-wrap</a></li>
-                 <li class="sidebar-list-item"><a class= "item-name" href="HTML-Files/justify-content.html">Justify-content</a></li>
-                 <li class="sidebar-list-item"><a class= "item-name" href="HTML-Files/order.html">Order</a></li>
-                 <li class="sidebar-list-item"><a class= "item-name" href="HTML-Files/overflow.html">Overflow</a></li>
-                 <li class="sidebar-list-item"><a class= "item-name" href="HTML-Files/overflow-wrap.html">Overflow-wrap</a></li>
-                 <li class="sidebar-list-item"><a class= "item-name" href="HTML-Files/position.html">Position</a></li>
-                 <li class="sidebar-list-item"><a class= "item-name" href="HTML-Files/transform.html">Transform</a></li>
-                 <li class="sidebar-list-item"><a class= "item-name" href="HTML-Files/white-space.html">White-space</a></li>
-                 <li class="sidebar-list-item"><a class= "item-name" href="HTML-Files/word-break.html">Word-break</a></li>
-                 <li class="sidebar-list-item"><a class= "item-name" href="HTML-Files/z-index.html">Z-index</a></li>
+                 <li class="sidebar-list-item active"><a class="item-name" href="animation-timing-function.html">Animation-timing-function</a></li>
+                 <li class="sidebar-list-item"><a class="item-name" href="background-color.html">Background-color</a></li>
+                 <li class="sidebar-list-item"><a class="item-name" href="box-shadow.html">Box-shadow</a></li>
+                 <li class="sidebar-list-item"><a class="item-name" href="box-sizing.html">Box-sizing</a></li>
+                 <li class="sidebar-list-item"><a class="item-name" href="cursor.html">Cursor</a></li>
+                 <li class="sidebar-list-item"><a class="item-name" href="flex-direction.html">Flex-direction</a></li>
+                 <li class="sidebar-list-item"><a class="item-name" href="flex-wrap.html">Flex-wrap</a></li>
+                 <li class="sidebar-list-item"><a class="item-name" href="justify-content.html">Justify-content</a></li>
+                 <li class="sidebar-list-item"><a class="item-name" href="order.html">Order</a></li>
+                 <li class="sidebar-list-item"><a class="item-name" href="overflow.html">Overflow</a></li>
+                 <li class="sidebar-list-item"><a class="item-name" href="overflow-wrap.html">Overflow-wrap</a></li>
+                 <li class="sidebar-list-item"><a class="item-name" href="position.html">Position</a></li>
+                 <li class="sidebar-list-item"><a class="item-name" href="transform.html">Transform</a></li>
+                 <li class="sidebar-list-item"><a class="item-name" href="white-space.html">White-space</a></li>
+                 <li class="sidebar-list-item"><a class="item-name" href="word-break.html">Word-break</a></li>
+                 <li class="sidebar-list-item"><a class="item-name" href="z-index.html">Z-index</a></li>
              </ul>
         </aside>
         <main class="content">
+            <div class="definition">
+                <h2>#Animation-timing-function</h2>
+                Defines how the values between the start and the end of the animation are calculated.
+            </div>
+            
             <ul class="content-item">
                 <li class="content-list-item">
                     <div class="content-text">
+                        <h3 class="subtitle"><p class="subtitle-color"> animation-timing-function: ease;</p>
+                            <span class="default">default</span>
+                        </h3>
+                        The animation starts slowly, accelerates in the middle, and slows down at the end.
                     </div>
                     <div class="content-img">
-                        <img src="" alt="" />
+                        <img class="bc_margin" src="../Images/ease.gif" alt="">
                     </div>
                 </li>
                 <li class="content-list-item">
                     <div class="content-text">
+                        <h3 class="subtitle"><p class="subtitle-color">animation-timing-function: ease-in;</p> </h3>
+                        The animation starts slowly, and accelerates gradually until the end.
                     </div>
                     <div class="content-img">
-                        <img src="" alt="">
+                        <img class="bc_margin" src="../Images/ease-in.gif" alt="">
                     </div>
                 </li>
                 <li class="content-list-item">
                     <div class="content-text">
-                        
+                        <h3 class="subtitle"><p class="subtitle-color">animation-timing-function: ease-out;</p> </h3>
+                        The animation starts quickly, and decelerates gradually until the end.
                     </div>
                     <div class="content-img">
-                        <img src="" alt="">
+                        <img class="bc_margin" src="../Images/ease-out.gif" alt="">
                     </div>
                 </li>
                 <li class="content-list-item">
                     <div class="content-text">
+                        <h3 class="subtitle"><p class="subtitle-color">animation-timing-function: ease-in-out;</p> </h3>
+                        Like ease, but more pronounced.
 
+                        The animation starts quickly, and decelerates gradually until the end.
                     </div>
                     <div class="content-img">
-                        <img src="" alt="">
+                        <img class="bc_margin" src="../Images/ease-in-out.gif" alt="">
                     </div>
                 </li>
+                <li class="content-list-item">
+                    <div class="content-text">
+                        <h3 class="subtitle"><p class="subtitle-color">animation-timing-function: linear;</p> </h3>
+                        The animation has a *constant speed.
+                    </div>
+                    <div class="content-img">
+                        <img class="bc_margin" src="../Images/linear.gif" alt="">
+                    </div>
+                </li>
+                <li class="content-list-item">
+                    <div class="content-text">
+                        <h3 class="subtitle"><p class="subtitle-color">animation-timing-function: step-start;</p> </h3>
+                        The animation jumps instantly to the final state.
+                    </div>
+                    <div class="content-img">
+                        <img class="bc_margin" src="../Images/step-start.gif" alt="">
+                    </div>
+                </li>
+                <li class="content-list-item">
+                    <div class="content-text">
+                        <h3 class="subtitle"><p class="subtitle-color">animation-timing-function: step-end;</p> </h3>
+                        The animation stays at the initial state until the end, when it instantly jumps to the final state.
+                    </div>
+                    <div class="content-img">
+                        <img class="bc_margin" src="../Images/step-end.gif" alt="">
+                    </div>
+                </li>
+                <li class="content-list-item">
+                    <div class="content-text">
+                        <h3 class="subtitle"><p class="subtitle-color">animation-timing-function: steps(4,end);</p> </h3>
+                        By using steps() with an integer, you can define a specific number of steps before reaching the end. The state of the element will not vary gradually, but rather jump from state to state in separate instants.                    </div>
+                    <div class="content-img">
+                        <img class="bc_margin" src="../Images/steps.gif" alt="">
+                    </div>
+                </li>
+                
             </ul>
         </main>   
     </div>
-  </body>
+ 
+    
+</body>
 </html>
