@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles.css">
     <title>CSS Tutorial Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">CSS Tutorials</header>
+    <header class="header"># Position</header>
     <div class="container">
         <aside class="sidebar">
              <ul class="sidebar-items">
@@ -19,7 +22,7 @@
                  <li class="sidebar-list-item"><a href="flex-direction.html">Flex-direction</a></li>
                  <li class="sidebar-list-item"><a href="flex-wrap.html">Flex-wrap</a></li>
                  <li class="sidebar-list-item"><a href="justify-content.html">Justify-content</a></li>
-                 <li class="sidebar-list-item"><a href="order.html">Order</li>
+                 <li class="sidebar-list-item"><a href="order.html">Order</a></li>
                  <li class="sidebar-list-item"><a href="overflow.html">Overflow</a></li>
                  <li class="sidebar-list-item"><a href="overflow-wrap.html">Overflow-wrap</a></li>
                  <li class="sidebar-list-item"><a href="position.html">Position</a></li>
@@ -30,41 +33,81 @@
              </ul>
         </aside>
         <main class="content">
+            <div class="definition">
+                <p>Defines the position behavior of the element. </p>
+            </div>
             <ul class="content-item">
                 <li class="content-list-item">
                     <div class="content-text">
-                        This is some context text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptate culpa corporis. Beatae eum libero laudantium culpa mollitia error est ex suscipit nostrum illo! Possimus, velit aut molestiae recusandae consequuntur fuga impedit quos 
-            
+                        <h3 class="subtitle">
+                            <p class="subtitle-color"> Position: static ;</p>
+                            <span class="default">default</span>
+                        </h3>
+                            <p class="text-content">The element will remain in the natural flow of the page. <br> <br> As a result, it will not act as anchor point for the absolutely positioned pink block.<br> <br> Also, it will not react to the following properties:</p>
+                            <ul>
+                                <li>top</li>
+                                <li>bottom</li>
+                                <li>left</li>
+                                <li>right</li>
+                                <li>z-index</li>
+                            </ul>
                     </div>
                     <div class="content-img">
-                        <img src="../test-image.jpeg" alt="">
+                        <img class="bc_margin" src="../Images/position_jpg/p_static.jpg" alt="">
                     </div>
                 </li>
                 <li class="content-list-item">
                     <div class="content-text">
-                        This is some context text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptate culpa corporis. Beatae eum libero laudantium culpa mollitia error est ex suscipit nostrum illo! Possimus, velit aut molestiae recusandae consequuntur fuga impedit quos 
-            
+                        <h3 class="subtitle">
+                            <p class="subtitle-color"> Position: relative;</p>
+                        </h3>
+                        <p class="text-content">The element will remain in the natural flow of the page. <br> <br> It also makes the element positioned: it will act as an anchor point for the absolutely positioned pink block. <br> <br>  Also, it will react to the following properties:</p>
+                        <ul>
+                            <li>top</li>
+                            <li>bottom</li>
+                            <li>left</li>
+                            <li>right</li>
+                            <li>z-index</li>
+                        </ul>
                     </div>
                     <div class="content-img">
-                        <img src="../test-image.jpeg" alt="">
+                        <img class="bc_margin" src="../Images/position_jpg/p_relative.jpg" alt="">
                     </div>
                 </li>
                 <li class="content-list-item">
                     <div class="content-text">
-                        This is some context text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptate culpa corporis. Beatae eum libero laudantium culpa mollitia error est ex suscipit nostrum illo! Possimus, velit aut molestiae recusandae consequuntur fuga impedit quos 
-            
+                        <h3 class="subtitle">
+                            <p class="subtitle-color"> Position: absolute ;</p>
+                        </h3>
+                        <p class="text-content">The element will not remain in the natural flow of the page. It will position itself according to the closest positioned ancestor. <br> <br>  Because it's positioned, it will act as an anchor point for the absolutely positioned pink block. <br> <br>  Also, it will react to the following properties:</p>
+                        <ul>
+                            <li>top</li>
+                            <li>bottom</li>
+                            <li>left</li>
+                            <li>right</li>
+                            <li>z-index</li>
+                        </ul>
                     </div>
                     <div class="content-img">
-                        <img src="../test-image.jpeg" alt="">
+                        <img class="bc_margin" src="../Images/position_jpg/p_absolute.jpg" alt="">
                     </div>
                 </li>
                 <li class="content-list-item">
                     <div class="content-text">
-                        This is some context text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptate culpa corporis. Beatae eum libero laudantium culpa mollitia error est ex suscipit nostrum illo! Possimus, velit aut molestiae recusandae consequuntur fuga impedit quos 
-            
+                        <h3 class="subtitle">
+                            <p class="subtitle-color"> Position: fixed ;</p>
+                        </h3>
+                        <p class="text-content">The element will not remain in the natural flow of the page. It will position itself according to the viewport. <br> <br>  Because it's positioned, it will act as an anchor point for the absolutely positioned pink block.  <br> <br> Also, it will react to the following properties:</p>
+                        <ul>
+                            <li>top</li>
+                            <li>bottom</li>
+                            <li>left</li>
+                            <li>right</li>
+                            <li>z-index</li>
+                        </ul>
                     </div>
                     <div class="content-img">
-                        <img src="../test-image.jpeg" alt="">
+                        <img class="bc_margin" src="../Images/position_jpg/p_fixed.jpg" alt="">
                     </div>
                 </li>
             </ul>
