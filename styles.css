@@ -40,6 +40,15 @@ a{
     padding: 0 .5rem;
     z-index: 3;
 }
+
+.header a{
+    display: block;
+    width: auto;
+    left: 0;
+    position: absolute;
+    padding-left: 2rem;
+}
+
 .sidebar{
     display: flex;
     flex-direction: column;
