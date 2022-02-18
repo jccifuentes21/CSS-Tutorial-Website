@@ -9,10 +9,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
 
-    <title>CSS Tutorial Website</title>
+    <title>#Animation-timing-function</title>
 </head>
 <body>
-    <header class="header">Animation-timing-function</header>
+    <header class="header">#Animation-timing-function</header>
     <div class="container">
         <aside class="sidebar">
              <ul class="sidebar-items">
@@ -35,7 +35,7 @@
         </aside>
         <main class="content">
             <div class="definition">
-                <h2>animation-timing-function</h2>
+                <h2>#Animation-timing-function</h2>
                 Defines how the values between the start and the end of the animation are calculated.
             </div>
             
@@ -75,9 +75,36 @@
                         The animation has a *constant speed.
                     </div>
                     <div class="content-img">
-                        <img src="../test-image.jpeg" alt="">
+                        <img src="../" alt="">
                     </div>
                 </li>
+                <li class="content-list-item">
+                    <div class="content-text">
+                        <h3 class="subtitle"><p class="subtitle-color">animation-timing-function: step-start;</p> </h3>
+                        The animation jumps instantly to the final state.
+                    </div>
+                    <div class="content-img">
+                        <img src="../" alt="">
+                    </div>
+                </li>
+                <li class="content-list-item">
+                    <div class="content-text">
+                        <h3 class="subtitle"><p class="subtitle-color">animation-timing-function: step-end;</p> </h3>
+                        The animation stays at the initial state until the end, when it instantly jumps to the final state.
+                    </div>
+                    <div class="content-img">
+                        <img src="../" alt="">
+                    </div>
+                </li>
+                <li class="content-list-item">
+                    <div class="content-text">
+                        <h3 class="subtitle"><p class="subtitle-color">animation-timing-function: steps(4,end);</p> </h3>
+                        By using steps() with an integer, you can define a specific number of steps before reaching the end. The state of the element will not vary gradually, but rather jump from state to state in separate instants.                    </div>
+                    <div class="content-img">
+                        <img src="../" alt="">
+                    </div>
+                </li>
+                
             </ul>
         </main>   
     </div>
