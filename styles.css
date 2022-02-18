@@ -1,16 +1,13 @@
 body{
     margin: 0;
 }
-
 *{
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;  
 }
-
 html{
     background-color: #F5F5F5;
 }
-
 a{
     width: 100%;
     padding: 0.5rem 0;
@@ -20,21 +17,15 @@ a{
     align-items: center;
     justify-content: center;
     font-family: 'Bebas Neue', cursive;
-
-    
 }
-
 :root{
-
     --header-height:75px;
     --sidebar-width: 200px;
     --list-item-height: 3rem;
 }
-
 .container{
     display: flex;
 }
-
 .header{
     display: flex;
     align-items: center;
@@ -48,7 +39,6 @@ a{
     height: var(--header-height);
     padding: 0 .5rem;
 }
-
 .sidebar{
     display: flex;
     flex-direction: column;
@@ -64,9 +54,7 @@ a{
     left: 0;
     top: var(--header-height);
     padding-top: 1rem;
-
 }
-
 .sidebar-items{
     margin: 0;
     padding: 0;
@@ -75,9 +63,7 @@ a{
     align-items: center;
     width: 100%;
     list-style: none;
-    
 }
-
 .sidebar-list-item{
     display: flex;
     justify-content: center;
@@ -85,14 +71,10 @@ a{
     cursor: pointer;
     width: 100%;
     height: var(--list-item-height);
-    
-
 }
-
 .sidebar-list-item:hover{
     background: rgb(172, 171, 171);
 }
-
 .content{
     display: flex;
     flex-direction: column;
@@ -100,11 +82,9 @@ a{
     left: var(--sidebar-width);
     width: 100%;
 }
-
 .definition{
     padding-bottom: 1.5rem;
 }
-
 .content-item{
     margin: 0;
     padding: 0;
@@ -114,24 +94,20 @@ a{
     width: 100%;
     list-style: none;
 }
-
 .content-list-item{
     display: flex;
     justify-content: center;
     align-items: center;
     padding-bottom: 1.5rem;
 }
-
 .content-text{
     height: 100%;
     width: 50vw;
 }
-
 .content-text h3{
     display: flex;
     justify-content: space-between;
 }
-
 .content-text .default{
     padding: 0.1em 0.5em 0.15em;
     display: inline-block;
@@ -139,12 +115,10 @@ a{
     color: #F05454;
     border-radius: 5px;
 }
-
 .content-img{
     width: 50%;
     padding-left: 1.5rem;
 }
-
 .content-img img{
     max-width: 100%;
 }
@@ -163,7 +137,6 @@ a{
     border: solid black;
     border-radius: 5px;
 }
-
 ::-webkit-scrollbar {
     width: 10px;
     height: 10px;
