@@ -5,21 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     <title>CSS Tutorial Website</title>
 </head>
 <body>
-    <header class="header">CSS Tutorials</header>
+    <header class="header"># order</header>
     <div class="container">
         <aside class="sidebar">
              <ul class="sidebar-items">
                  <li class="sidebar-list-item"><a href="animation-timing-function.html">Animation-timing-function</a></li>
                  <li class="sidebar-list-item"><a href="background-color.html">Background-color</a></li>
+                 <li class="sidebar-list-item"><a class="item-name" href="box-shadow.html">Box-shadow</a></li>
                  <li class="sidebar-list-item"><a href="box-sizing.html">Box-sizing</a></li>
                  <li class="sidebar-list-item"><a href="cursor.html">Cursor</a></li>
                  <li class="sidebar-list-item"><a href="flex-direction.html">Flex-direction</a></li>
                  <li class="sidebar-list-item"><a href="flex-wrap.html">Flex-wrap</a></li>
                  <li class="sidebar-list-item"><a href="justify-content.html">Justify-content</a></li>
-                 <li class="sidebar-list-item active"><a href="order.html">Order</li>
+                 <li class="sidebar-list-item active"><a href="order.html">Order</a></li>
                  <li class="sidebar-list-item"><a href="overflow.html">Overflow</a></li>
                  <li class="sidebar-list-item"><a href="overflow-wrap.html">Overflow-wrap</a></li>
                  <li class="sidebar-list-item"><a href="position.html">Position</a></li>
@@ -30,41 +34,60 @@
              </ul>
         </aside>
         <main class="content">
+            <div class="definition">
+                <h2>#Order</h2>
+                Defines the order of a flexbox item.            
+            </div>
+
             <ul class="content-item">
                 <li class="content-list-item">
                     <div class="content-text">
-                        This is some context text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptate culpa corporis. Beatae eum libero laudantium culpa mollitia error est ex suscipit nostrum illo! Possimus, velit aut molestiae recusandae consequuntur fuga impedit quos 
+                        <h3 class="subtitle">
+                            <p class="subtitle-color">order: 0;</p>
+                            <span class="default">default</span>
+                        </h3>
+                         
+                        The order of the flexbox items is the one defined in the HTML code.
             
                     </div>
                     <div class="content-img">
-                        <img src="../test-image.jpeg" alt="">
+                        <img class="bc_margin" src="../Images/Order1.png" alt="">
                     </div>
                 </li>
                 <li class="content-list-item">
                     <div class="content-text">
-                        This is some context text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptate culpa corporis. Beatae eum libero laudantium culpa mollitia error est ex suscipit nostrum illo! Possimus, velit aut molestiae recusandae consequuntur fuga impedit quos 
+                        <h3 class="subtitle">
+                        <p class="subtitle-color">order: 1;</p>
+                    </h3>
+                        The order is relative to the flexbox item's siblings. The final order is defined when all individual flexbox item order values are taken into account.
             
                     </div>
                     <div class="content-img">
-                        <img src="../test-image.jpeg" alt="">
+                        <img class="bc_margin" src="../Images/Order2.png" alt="">
                     </div>
                 </li>
                 <li class="content-list-item">
                     <div class="content-text">
-                        This is some context text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptate culpa corporis. Beatae eum libero laudantium culpa mollitia error est ex suscipit nostrum illo! Possimus, velit aut molestiae recusandae consequuntur fuga impedit quos 
+                        <h3 class="subtitle">
+                        <p class="subtitle-color">order: -1;</p>
+                    </h3>
+                        You can use negative values.
             
                     </div>
                     <div class="content-img">
-                        <img src="../test-image.jpeg" alt="">
+                        <img class="bc_margin" src="../Images/Order3.png" alt="">
                     </div>
                 </li>
                 <li class="content-list-item">
                     <div class="content-text">
-                        This is some context text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptate culpa corporis. Beatae eum libero laudantium culpa mollitia error est ex suscipit nostrum illo! Possimus, velit aut molestiae recusandae consequuntur fuga impedit quos 
+                        <h3 class="subtitle">
+                        <p class="subtitle-color">order: 9;</p>
+                    </h3>
+                        You can set a different value for each flexbox item.
             
                     </div>
                     <div class="content-img">
-                        <img src="../test-image.jpeg" alt="">
+                        <img class="bc_margin" src="../Images/Order4.png" alt="">
                     </div>
                 </li>
             </ul>
@@ -73,4 +96,3 @@
  
     
 </body>
-</html>

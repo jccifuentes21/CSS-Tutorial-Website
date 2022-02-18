@@ -5,15 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     <title>CSS Tutorial Website</title>
 </head>
 <body>
-    <header class="header">CSS Tutorials</header>
+    <header class="header"># flex-direction</header>
     <div class="container">
         <aside class="sidebar">
              <ul class="sidebar-items">
                  <li class="sidebar-list-item"><a href="animation-timing-function.html">Animation-timing-function</a></li>
                  <li class="sidebar-list-item"><a href="background-color.html">Background-color</a></li>
+                 <li class="sidebar-list-item"><a class="item-name" href="box-shadow.html">Box-shadow</a></li>
                  <li class="sidebar-list-item"><a href="box-sizing.html">Box-sizing</a></li>
                  <li class="sidebar-list-item"><a href="cursor.html">Cursor</a></li>
                  <li class="sidebar-list-item active"><a href="flex-direction.html">Flex-direction</a></li>
@@ -30,41 +34,60 @@
              </ul>
         </aside>
         <main class="content">
+            <div class="definition">
+                <h2>#Flex-direction</h2>
+                Defines how flexbox items are ordered within a flexbox container.            
+            </div>
             <ul class="content-item">
                 <li class="content-list-item">
                     <div class="content-text">
-                        This is some context text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptate culpa corporis. Beatae eum libero laudantium culpa mollitia error est ex suscipit nostrum illo! Possimus, velit aut molestiae recusandae consequuntur fuga impedit quos 
+                        <h3 class="subtitle">
+                            <p class="subtitle-color">flex-direction: row;</p>
+                            <span class="default">default</span>
+                        </h3>
+                         
+                        The flexbox items are ordered the same way as the text direction, along the main axis. 
             
                     </div>
                     <div class="content-img">
-                        <img src="../test-image.jpeg" alt="">
+                    <img class="bc_margin" src="../Images/flex-direction1.png" alt="">
                     </div>
                 </li>
                 <li class="content-list-item">
                     <div class="content-text">
-                        This is some context text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptate culpa corporis. Beatae eum libero laudantium culpa mollitia error est ex suscipit nostrum illo! Possimus, velit aut molestiae recusandae consequuntur fuga impedit quos 
-            
+                        <h3 class="subtitle">
+                        <p class="subtitle-color">flex-direction: row-reverse;</p>
+                    </h3>
+
+                        The flexbox items are ordered the opposite way as the text direction, along the main axis.
                     </div>
                     <div class="content-img">
-                        <img src="../test-image.jpeg" alt="">
+                        <img class="bc_margin" src="../Images/flex-direction2.png" alt="">
                     </div>
                 </li>
                 <li class="content-list-item">
                     <div class="content-text">
-                        This is some context text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptate culpa corporis. Beatae eum libero laudantium culpa mollitia error est ex suscipit nostrum illo! Possimus, velit aut molestiae recusandae consequuntur fuga impedit quos 
+                        <h3 class="subtitle">
+                        <p class="subtitle-color">flex-direction: column;</p>
+                    </h3>
+                        The flexbox items are ordered the same way as the text direction, along the cross axis.
             
                     </div>
                     <div class="content-img">
-                        <img src="../test-image.jpeg" alt="">
+                        <img class="bc_margin" src="../Images/flex-direction3.png" alt="">
                     </div>
                 </li>
                 <li class="content-list-item">
                     <div class="content-text">
-                        This is some context text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptate culpa corporis. Beatae eum libero laudantium culpa mollitia error est ex suscipit nostrum illo! Possimus, velit aut molestiae recusandae consequuntur fuga impedit quos 
+                        <h3 class="subtitle">
+                        <p class="subtitle-color">flex-direction: column-reverse;</p>
+                    </h3>
+
+                        The flexbox items are ordered the opposite way as the text direction, along the cross axis. 
             
                     </div>
                     <div class="content-img">
-                        <img src="../test-image.jpeg" alt="">
+                        <img class="bc_margin" src="../Images/flex-direction4.png" alt="">
                     </div>
                 </li>
             </ul>
